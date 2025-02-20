@@ -27,21 +27,22 @@ include_trailing_comma = true
 max-line-length = 99
 
 [tool.pylint.'MESSAGES CONTROL']
-disable = [
-	"bare-except",
-	"broad-except",
-	"consider-using-with",
-	"consider-using-generator",
-	"duplicate-code",
-	"import-outside-toplevel",
-	"invalid-name",
-	"import-error",
-	"too-few-public-methods",
-	"too-many-arguments",
-	"too-many-branches",
-	"too-many-instance-attributes",
-	"unspecified-encoding",
-	"wrong-import-position",
+disable= [
+    "bare-except",
+    "broad-except",
+    "consider-using-with",
+    "consider-using-generator",
+    "duplicate-code",
+    "import-outside-toplevel",
+    "invalid-name",
+    "import-error",
+    "too-few-public-methods",
+    "too-many-arguments",
+    "too-many-positional-arguments",
+    "too-many-branches",
+    "too-many-instance-attributes",
+    "unspecified-encoding",
+    "wrong-import-position",
 ]
 
 [tool.pyright]

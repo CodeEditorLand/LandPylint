@@ -3,12 +3,8 @@
 # Use `uv` with Python 3.9 when creating the environment.
 #
 # Run following command:
-# uv pip compile --generate-hashes --upgrade -o ./dev-requirements.txt ./dev-requirements.in
+# uv pip compile --generate-hashes --upgrade -o ./src/test/python_tests/requirements.txt ./src/test/python_tests/requirements.in
 
-black
-flake8
-flake8-pyproject
-isort
-nox
-pip-tools
-wheel
+pytest
+PyHamcrest
+python-jsonrpc-server
