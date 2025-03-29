@@ -170,19 +170,19 @@
 		"workspaceContains:*.py"
 	],
 	"dependencies": {
-		"fs-extra": "^11.3.0"
+		"fs-extra": "11.3.0"
 	},
 	"devDependencies": {
-		"@types/chai": "^5.2.0",
-		"@types/fs-extra": "^11.0.4",
-		"@types/glob": "^8.1.0",
+		"@types/chai": "5.2.1",
+		"@types/fs-extra": "11.0.4",
+		"@types/glob": "8.1.0",
 		"@types/node": "22.x",
-		"@types/sinon": "^17.0.4",
-		"chai": "^5.2.0",
-		"glob": "^11.0.1",
-		"sinon": "^19.0.4",
-		"ts-loader": "^9.5.2",
-		"typemoq": "^2.1.0"
+		"@types/sinon": "17.0.4",
+		"chai": "5.2.0",
+		"glob": "11.0.1",
+		"sinon": "20.0.0",
+		"ts-loader": "9.5.2",
+		"typemoq": "2.1.0"
 	},
 	"extensionDependencies": [
 		"ms-python.python"
