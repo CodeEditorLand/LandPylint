@@ -1,11 +1,34 @@
 {
 	"name": "pylint",
 	"displayName": "Pylint",
+	"version": "0.0.1",
+	"private": false,
 	"description": "%extension.description%",
+	"keywords": [
+		"codeeditorland",
+		"land",
+		"playform"
+	],
+	"homepage": "HTTPS://GitHub.Com/CodeEditorLand/LandPylint#readme",
+	"bugs": {
+		"url": "HTTPS://GitHub.Com/CodeEditorLand/LandPylint/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+HTTPS://github.com/CodeEditorLand/LandPylint.git"
+	},
+	"license": "SEE LICENSE IN LICENSE",
+	"author": {
+		"name": "Source 🖋️ Open 👐🏻",
+		"email": "Source/Open@Editor.Land",
+		"url": "HTTPS://Editor.Land"
+	},
+	"type": "module",
 	"main": "./dist/extension.js",
 	"scripts": {
 		"compile": "webpack",
 		"compile-tests": "tsc -p . --outDir out",
+		"prepublishOnly": "Build 'Source/**/*.ts'",
 		"tests": "node ./out/test/ts_tests/runTest.js",
 		"vsce-package": "vsce package -o pylint.vsix",
 		"watch-tests": "tsc -p . -w --outDir out"
@@ -173,6 +196,7 @@
 		"fs-extra": "11.3.0"
 	},
 	"devDependencies": {
+		"@playform/build": "0.2.1",
 		"@types/chai": "5.2.1",
 		"@types/fs-extra": "11.0.4",
 		"@types/glob": "8.1.0",
@@ -187,6 +211,9 @@
 	"extensionDependencies": [
 		"ms-python.python"
 	],
+	"publishConfig": {
+		"access": "public"
+	},
 	"icon": "icon.png",
 	"galleryBanner": {
 		"color": "#1e415e",
