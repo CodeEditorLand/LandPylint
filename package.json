@@ -176,7 +176,7 @@
 	},
 	"description": "%extension.description%",
 	"devDependencies": {
-		"@playform/build": "0.2.3",
+		"@playform/build": "0.2.4",
 		"@types/chai": "^4.3.16",
 		"@types/fs-extra": "^11.0.4",
 		"@types/glob": "^8.1.0",
